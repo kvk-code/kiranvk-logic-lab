@@ -1,0 +1,10 @@
+# Logic Lab: only the page, its scripts and the AI relay are public
+DirectoryIndex index.php
+<FilesMatch "\.(md|mjs|sh)$">
+  Require all denied
+</FilesMatch>
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>
