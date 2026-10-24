@@ -139,7 +139,7 @@ $v = fn($f) => $f . '?v=' . @filemtime(__DIR__ . '/' . $f);
   Every ✓ and × is decided by the checker (truth tables and exact rule matching), never by the AI — the AI tutor only explains.
   Algorithms ported from <a href="https://github.com/aimacode/aima-python" rel="noopener">aima-python</a> (MIT); step diagnosis and “buggy rules” after
   <a href="https://github.com/ideas-edu/ideas" rel="noopener">IDEAS / LogEx</a> (Open Universiteit). Your work stays in this browser.
-  · <a href="#" id="exp">Export progress</a> · <a href="#" id="imp">Import</a>
+  · <a href="https://github.com/kvk-code/kiranvk-logic-lab" rel="noopener" target="_blank">Source on GitHub</a> (MIT) · <a href="#" id="exp">Export progress</a> · <a href="#" id="imp">Import</a>
 </footer>
 
 <div class="modal hidden" id="modal"><div class="box">
